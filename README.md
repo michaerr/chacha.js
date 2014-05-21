@@ -1,7 +1,7 @@
-chacha.js
+ChaCha.js
 =========
 
-Easy routing script for jquery mobile. Use chacha to define all your templates in a config.js file (similar to routes in Ruby on Rails). Use chacha to load pages in runtime.
+Easy routing script for jquery mobile. Use chacha to define all your templates in a config.js file (similar to routes in Ruby on Rails). Use ChaCha to load pages in runtime. The script uses 'mustache' to renders all the templates once before it loads and then again with the data returned from a 'post' or 'get' everytime the page is loaded. Chacha is running under jquerymobile and is using 'mustache' for templating.
 
 Instructions
 ------------
@@ -47,3 +47,11 @@ Now create a template called page and load it into the screen using:
 ```javascript
 chacha.load_page(page)
 ```
+
+
+Examples
+------------
+Check out the working sample. The chacha script is in the js folder.
+
+
+Enjoy.
