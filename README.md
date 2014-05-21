@@ -39,7 +39,7 @@ var app_pages = {
 ```
 
 In your index.html add an empty div with the page:
-<div data-role="page" id="page"></div>
+// <div data-role="page" id="page"></div>
 
 
 Now create a template called page and load it into the screen using chacha.load_page(page)
