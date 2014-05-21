@@ -8,6 +8,8 @@ Instructions
 
 The following deffinition are defined in config.js:
 
+```javascript
+// 
 var app_pages = {
 	page: {
 		// Select the page that will be used as the header. If nothing is defined the default is 'header.htm'
@@ -34,6 +36,7 @@ var app_pages = {
 		}
 	},
 };
+```
 
 In your index.html add an empty div with the page:
 <div data-role="page" id="page"></div>
