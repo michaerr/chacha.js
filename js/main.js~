@@ -1,0 +1,11 @@
+
+// For Cordova applications use the deviceready event to load the page
+document.addEventListener("deviceready", function(){
+	chacha.init_app();	
+}, false);
+
+
+// Once all pages are added to DOM we go to the first page
+$(document).on( "appready", function() {
+	chacha.load_page("default_page",{data: {options: {transition: "slide"}}});
+});

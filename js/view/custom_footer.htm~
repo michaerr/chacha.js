@@ -1,0 +1,10 @@
+<script id="page_footer" type="text/template">
+<div data-role="footer" data-position="fixed">
+    <div data-role="navbar">		
+		<h3 class="powered_logo"> 
+			<div class="powered_circle"><div class="powered_inner_circle"></div></div>
+			Powered by smifr
+		</h3>
+    </div>
+</div>
+</script>

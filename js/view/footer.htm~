@@ -1,0 +1,5 @@
+<script id="page_footer" type="text/template">
+	<div data-role="footer" data-position="fixed">
+		<h1>This is the default application footer</h1>
+	</div>
+</script>

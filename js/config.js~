@@ -1,0 +1,45 @@
+var app_server = "http://localhost/";
+
+var app_data = {
+    name: "Application Name",
+    home_page: "default_page",
+   
+    // Used as the default prefix to differentiate regular links from links that need to be handled
+    link_prefix: "app-page",
+    
+    path_to_views: "js/view/",
+    
+    user_id: 5,
+    app_id: 5,
+    // Used to close scripts that are loaded into the page
+    script: "script",
+};
+
+var app_pages = {
+	default_page: {
+		header: 'custom_header',
+		footer: 'custom_footer',
+		back_button: true,
+		request_type: 'post',
+		request_url: app_server + 'request_page.json',
+		request_params: {
+			user_id: function () {
+				return 5;
+			},
+			app_id: 5,
+		}
+	},
+	sample_page: {
+		back_button: true,
+		request_type: 'post',
+		request_url: app_server + 'request_page.json',
+		request_params: {
+			user_id: function () {
+				return 5;
+			},
+			app_id: 5,
+		}
+	}
+
+};
+

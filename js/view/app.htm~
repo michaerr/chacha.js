@@ -1,0 +1,7 @@
+<script id="app_page" type="text/template">
+{{> page_header}}
+{{> page_footer}}
+{{> page_content}}
+</script>
+
+

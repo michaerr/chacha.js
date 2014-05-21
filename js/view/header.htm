@@ -1,0 +1,15 @@
+<script id="page_header" type="text/template">
+<div data-role="header">
+    <div>
+		<img src="img/app_logo.png" class="app_header_img">
+    	<span>{{name}}</span>
+	</div>
+	<div data-role="navbar">
+        <ul>
+            <li><a href="#app-page?home" data-icon="home" data-theme="a" data-transition="slide" {{#on_page_home}}class="ui-btn-active"{{/on_page_home}}>Home</a></li>            
+            <li><a href="#app-page?accounts" data-icon="user" data-theme="a" data-transition="slide" {{#on_page_accounts}}class="ui-btn-active"{{/on_page_accounts}}>Accounts</a></li>            
+            <li><a href="#app-page?settings" data-icon="gear" data-theme="a" data-transition="slide" {{#on_page_settings}}class="ui-btn-active"{{/on_page_settings}}>Settings</a></li>
+        </ul>
+    </div>
+</div>
+</script>
